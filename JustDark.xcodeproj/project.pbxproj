@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47A218EB2E7CA5DB00E52EB5 /* test Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 47A218EA2E7CA5DB00E52EB5 /* test Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		47A218F52E7CA5DB00E52EB5 /* test Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 47A218F42E7CA5DB00E52EB5 /* test Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47A218EB2E7CA5DB00E52EB5 /* JustDark Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 47A218EA2E7CA5DB00E52EB5 /* JustDark Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47A218F52E7CA5DB00E52EB5 /* JustDark Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 47A218F42E7CA5DB00E52EB5 /* JustDark Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				47A218EB2E7CA5DB00E52EB5 /* test Extension.appex in Embed Foundation Extensions */,
+				47A218EB2E7CA5DB00E52EB5 /* JustDark Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				47A218F52E7CA5DB00E52EB5 /* test Extension.appex in Embed Foundation Extensions */,
+				47A218F52E7CA5DB00E52EB5 /* JustDark Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,59 +54,61 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		47A218CD2E7CA5DB00E52EB5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A218DF2E7CA5DB00E52EB5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A218EA2E7CA5DB00E52EB5 /* test Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A218F42E7CA5DB00E52EB5 /* test Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A218CD2E7CA5DB00E52EB5 /* JustDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A218DF2E7CA5DB00E52EB5 /* JustDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A218EA2E7CA5DB00E52EB5 /* JustDark Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JustDark Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A218F42E7CA5DB00E52EB5 /* JustDark Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JustDark Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		47A219182E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "test (iOS)" target */ = {
+		47A219182E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "JustDark (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
+				AppIcon.icon,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 47A218CC2E7CA5DB00E52EB5 /* test (iOS) */;
+			target = 47A218CC2E7CA5DB00E52EB5 /* JustDark (iOS) */;
 		};
-		47A2191C2E7CA5DB00E52EB5 /* Exceptions for "iOS (Extension)" folder in "test Extension (iOS)" target */ = {
+		47A2191C2E7CA5DB00E52EB5 /* Exceptions for "iOS (Extension)" folder in "JustDark Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 47A218E92E7CA5DB00E52EB5 /* test Extension (iOS) */;
+			target = 47A218E92E7CA5DB00E52EB5 /* JustDark Extension (iOS) */;
 		};
-		47A219212E7CA5DB00E52EB5 /* Exceptions for "iOS (App)" folder in "test (iOS)" target */ = {
+		47A219212E7CA5DB00E52EB5 /* Exceptions for "iOS (App)" folder in "JustDark (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 47A218CC2E7CA5DB00E52EB5 /* test (iOS) */;
+			target = 47A218CC2E7CA5DB00E52EB5 /* JustDark (iOS) */;
 		};
-		47A219222E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "test (macOS)" target */ = {
+		47A219222E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "JustDark (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Resources/Main.html",
+				AppIcon.icon,
 				Assets.xcassets,
 				Resources/Icon.png,
 				Resources/Script.js,
 				Resources/Style.css,
 				ViewController.swift,
 			);
-			target = 47A218DE2E7CA5DB00E52EB5 /* test (macOS) */;
+			target = 47A218DE2E7CA5DB00E52EB5 /* JustDark (macOS) */;
 		};
-		47A219262E7CA5DB00E52EB5 /* Exceptions for "macOS (Extension)" folder in "test Extension (macOS)" target */ = {
+		47A219262E7CA5DB00E52EB5 /* Exceptions for "macOS (Extension)" folder in "JustDark Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 47A218F32E7CA5DB00E52EB5 /* test Extension (macOS) */;
+			target = 47A218F32E7CA5DB00E52EB5 /* JustDark Extension (macOS) */;
 		};
-		47A2192B2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "test Extension (iOS)" target */ = {
+		47A2192B2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "JustDark Extension (iOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
@@ -119,9 +121,9 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 47A218E92E7CA5DB00E52EB5 /* test Extension (iOS) */;
+			target = 47A218E92E7CA5DB00E52EB5 /* JustDark Extension (iOS) */;
 		};
-		47A2192C2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "test Extension (macOS)" target */ = {
+		47A2192C2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "JustDark Extension (macOS)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
@@ -134,7 +136,7 @@
 				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
-			target = 47A218F32E7CA5DB00E52EB5 /* test Extension (macOS) */;
+			target = 47A218F32E7CA5DB00E52EB5 /* JustDark Extension (macOS) */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -142,8 +144,8 @@
 		47A218B52E7CA5D800E52EB5 /* Shared (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47A219182E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "test (iOS)" target */,
-				47A219222E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "test (macOS)" target */,
+				47A219182E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "JustDark (iOS)" target */,
+				47A219222E7CA5DB00E52EB5 /* Exceptions for "Shared (App)" folder in "JustDark (macOS)" target */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -151,8 +153,8 @@
 		47A218BE2E7CA5DB00E52EB5 /* Shared (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47A2192B2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "test Extension (iOS)" target */,
-				47A2192C2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "test Extension (macOS)" target */,
+				47A2192B2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "JustDark Extension (iOS)" target */,
+				47A2192C2E7CA5DB00E52EB5 /* Exceptions for "Shared (Extension)" folder in "JustDark Extension (macOS)" target */,
 			);
 			explicitFolders = (
 				Resources/_locales,
@@ -164,7 +166,7 @@
 		47A218CF2E7CA5DB00E52EB5 /* iOS (App) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47A219212E7CA5DB00E52EB5 /* Exceptions for "iOS (App)" folder in "test (iOS)" target */,
+				47A219212E7CA5DB00E52EB5 /* Exceptions for "iOS (App)" folder in "JustDark (iOS)" target */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -177,7 +179,7 @@
 		47A218EE2E7CA5DB00E52EB5 /* iOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47A2191C2E7CA5DB00E52EB5 /* Exceptions for "iOS (Extension)" folder in "test Extension (iOS)" target */,
+				47A2191C2E7CA5DB00E52EB5 /* Exceptions for "iOS (Extension)" folder in "JustDark Extension (iOS)" target */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -185,7 +187,7 @@
 		47A218F82E7CA5DB00E52EB5 /* macOS (Extension) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				47A219262E7CA5DB00E52EB5 /* Exceptions for "macOS (Extension)" folder in "test Extension (macOS)" target */,
+				47A219262E7CA5DB00E52EB5 /* Exceptions for "macOS (Extension)" folder in "JustDark Extension (macOS)" target */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -240,10 +242,10 @@
 		47A218CE2E7CA5DB00E52EB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47A218CD2E7CA5DB00E52EB5 /* test.app */,
-				47A218DF2E7CA5DB00E52EB5 /* test.app */,
-				47A218EA2E7CA5DB00E52EB5 /* test Extension.appex */,
-				47A218F42E7CA5DB00E52EB5 /* test Extension.appex */,
+				47A218CD2E7CA5DB00E52EB5 /* JustDark.app */,
+				47A218DF2E7CA5DB00E52EB5 /* JustDark.app */,
+				47A218EA2E7CA5DB00E52EB5 /* JustDark Extension.appex */,
+				47A218F42E7CA5DB00E52EB5 /* JustDark Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47A218CC2E7CA5DB00E52EB5 /* test (iOS) */ = {
+		47A218CC2E7CA5DB00E52EB5 /* JustDark (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A2191E2E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test (iOS)" */;
+			buildConfigurationList = 47A2191E2E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark (iOS)" */;
 			buildPhases = (
 				47A218C92E7CA5DB00E52EB5 /* Sources */,
 				47A218CA2E7CA5DB00E52EB5 /* Frameworks */,
@@ -268,16 +270,16 @@
 			fileSystemSynchronizedGroups = (
 				47A218CF2E7CA5DB00E52EB5 /* iOS (App) */,
 			);
-			name = "test (iOS)";
+			name = "JustDark (iOS)";
 			packageProductDependencies = (
 			);
 			productName = "test (iOS)";
-			productReference = 47A218CD2E7CA5DB00E52EB5 /* test.app */;
+			productReference = 47A218CD2E7CA5DB00E52EB5 /* JustDark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47A218DE2E7CA5DB00E52EB5 /* test (macOS) */ = {
+		47A218DE2E7CA5DB00E52EB5 /* JustDark (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A219282E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test (macOS)" */;
+			buildConfigurationList = 47A219282E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark (macOS)" */;
 			buildPhases = (
 				47A218DB2E7CA5DB00E52EB5 /* Sources */,
 				47A218DC2E7CA5DB00E52EB5 /* Frameworks */,
@@ -292,16 +294,16 @@
 			fileSystemSynchronizedGroups = (
 				47A218E02E7CA5DB00E52EB5 /* macOS (App) */,
 			);
-			name = "test (macOS)";
+			name = "JustDark (macOS)";
 			packageProductDependencies = (
 			);
 			productName = "test (macOS)";
-			productReference = 47A218DF2E7CA5DB00E52EB5 /* test.app */;
+			productReference = 47A218DF2E7CA5DB00E52EB5 /* JustDark.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47A218E92E7CA5DB00E52EB5 /* test Extension (iOS) */ = {
+		47A218E92E7CA5DB00E52EB5 /* JustDark Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A219192E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test Extension (iOS)" */;
+			buildConfigurationList = 47A219192E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark Extension (iOS)" */;
 			buildPhases = (
 				47A218E62E7CA5DB00E52EB5 /* Sources */,
 				47A218E72E7CA5DB00E52EB5 /* Frameworks */,
@@ -314,16 +316,16 @@
 			fileSystemSynchronizedGroups = (
 				47A218EE2E7CA5DB00E52EB5 /* iOS (Extension) */,
 			);
-			name = "test Extension (iOS)";
+			name = "JustDark Extension (iOS)";
 			packageProductDependencies = (
 			);
 			productName = "test Extension (iOS)";
-			productReference = 47A218EA2E7CA5DB00E52EB5 /* test Extension.appex */;
+			productReference = 47A218EA2E7CA5DB00E52EB5 /* JustDark Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		47A218F32E7CA5DB00E52EB5 /* test Extension (macOS) */ = {
+		47A218F32E7CA5DB00E52EB5 /* JustDark Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A219232E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test Extension (macOS)" */;
+			buildConfigurationList = 47A219232E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark Extension (macOS)" */;
 			buildPhases = (
 				47A218F02E7CA5DB00E52EB5 /* Sources */,
 				47A218F12E7CA5DB00E52EB5 /* Frameworks */,
@@ -336,11 +338,11 @@
 			fileSystemSynchronizedGroups = (
 				47A218F82E7CA5DB00E52EB5 /* macOS (Extension) */,
 			);
-			name = "test Extension (macOS)";
+			name = "JustDark Extension (macOS)";
 			packageProductDependencies = (
 			);
 			productName = "test Extension (macOS)";
-			productReference = 47A218F42E7CA5DB00E52EB5 /* test Extension.appex */;
+			productReference = 47A218F42E7CA5DB00E52EB5 /* JustDark Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +369,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47A218B42E7CA5D700E52EB5 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 47A218B42E7CA5D700E52EB5 /* Build configuration list for PBXProject "JustDark" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -381,10 +383,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47A218CC2E7CA5DB00E52EB5 /* test (iOS) */,
-				47A218DE2E7CA5DB00E52EB5 /* test (macOS) */,
-				47A218E92E7CA5DB00E52EB5 /* test Extension (iOS) */,
-				47A218F32E7CA5DB00E52EB5 /* test Extension (macOS) */,
+				47A218CC2E7CA5DB00E52EB5 /* JustDark (iOS) */,
+				47A218DE2E7CA5DB00E52EB5 /* JustDark (macOS) */,
+				47A218E92E7CA5DB00E52EB5 /* JustDark Extension (iOS) */,
+				47A218F32E7CA5DB00E52EB5 /* JustDark Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -454,12 +456,12 @@
 /* Begin PBXTargetDependency section */
 		47A218ED2E7CA5DB00E52EB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47A218E92E7CA5DB00E52EB5 /* test Extension (iOS) */;
+			target = 47A218E92E7CA5DB00E52EB5 /* JustDark Extension (iOS) */;
 			targetProxy = 47A218EC2E7CA5DB00E52EB5 /* PBXContainerItemProxy */;
 		};
 		47A218F72E7CA5DB00E52EB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47A218F32E7CA5DB00E52EB5 /* test Extension (macOS) */;
+			target = 47A218F32E7CA5DB00E52EB5 /* JustDark Extension (macOS) */;
 			targetProxy = 47A218F62E7CA5DB00E52EB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +475,7 @@
 				DEVELOPMENT_TEAM = Z6ZFSWFBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "JustDark Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,8 +488,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test.Extension;
-				PRODUCT_NAME = "test Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark.Extension;
+				PRODUCT_NAME = "JustDark Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -507,7 +509,7 @@
 				DEVELOPMENT_TEAM = Z6ZFSWFBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "test Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "JustDark Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,8 +522,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test.Extension;
-				PRODUCT_NAME = "test Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark.Extension;
+				PRODUCT_NAME = "JustDark Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -539,12 +541,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z6ZFSWFBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_CFBundleDisplayName = JustDark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -562,8 +566,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test;
-				PRODUCT_NAME = test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark;
+				PRODUCT_NAME = JustDark;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -580,12 +584,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z6ZFSWFBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_CFBundleDisplayName = JustDark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -603,8 +609,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test;
-				PRODUCT_NAME = test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark;
+				PRODUCT_NAME = JustDark;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -641,8 +647,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test.Extension;
-				PRODUCT_NAME = "test Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark.Extension;
+				PRODUCT_NAME = "JustDark Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -677,8 +683,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test.Extension;
-				PRODUCT_NAME = "test Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark.Extension;
+				PRODUCT_NAME = "JustDark Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -702,7 +708,8 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_CFBundleDisplayName = JustDark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -717,8 +724,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test;
-				PRODUCT_NAME = test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark;
+				PRODUCT_NAME = JustDark;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -743,7 +750,8 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_CFBundleDisplayName = JustDark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -758,8 +766,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.test;
-				PRODUCT_NAME = test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.croissantlabs.JustDark;
+				PRODUCT_NAME = JustDark;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -890,7 +898,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47A218B42E7CA5D700E52EB5 /* Build configuration list for PBXProject "test" */ = {
+		47A218B42E7CA5D700E52EB5 /* Build configuration list for PBXProject "JustDark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A2192D2E7CA5DB00E52EB5 /* Debug */,
@@ -899,7 +907,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A219192E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test Extension (iOS)" */ = {
+		47A219192E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A2191A2E7CA5DB00E52EB5 /* Debug */,
@@ -908,7 +916,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A2191E2E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test (iOS)" */ = {
+		47A2191E2E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A2191F2E7CA5DB00E52EB5 /* Debug */,
@@ -917,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A219232E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test Extension (macOS)" */ = {
+		47A219232E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A219242E7CA5DB00E52EB5 /* Debug */,
@@ -926,7 +934,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A219282E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "test (macOS)" */ = {
+		47A219282E7CA5DB00E52EB5 /* Build configuration list for PBXNativeTarget "JustDark (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47A219292E7CA5DB00E52EB5 /* Debug */,
