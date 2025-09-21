@@ -2,6 +2,8 @@
 
 A Safari web extension that provides intelligent dark mode functionality for websites across iOS and macOS platforms.
 
+<a href="https://www.producthunt.com/products/justdark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-justdark" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1018113&theme=dark&t=1758495790843" alt="JustDark - OLED&#0032;Dark&#0032;Theme&#0032;for&#0032;Safari | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## Overview
 
 JustDark is a Safari extension that automatically applies dark mode styling to websites, giving users control over their browsing experience. The extension offers per-website settings and can follow system preferences for seamless integration with your device's appearance settings.
